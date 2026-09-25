@@ -1,0 +1,52 @@
+:root {
+  --font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --bg-canvas: #090a1a;
+  --card-bg: #16172a;
+  --card-border: #232541;
+  --card-hover: #1c1e36;
+  --item-bg: #1f213a;
+  --primary-blue: #3b5bfd;
+  --primary-blue-hover: #4e6dfd;
+  --text-white: #ffffff;
+  --text-muted: #8d91b4;
+  --text-subtle: #676b91;
+  --text-dim: #505479;
+  --accent-amber: #f59e0b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  min-height: 100vh;
+  width: 100%;
+  font-family: var(--font-family);
+  background-color: #dbe2ea;
+  color: var(--text-white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+input {
+  font-family: inherit;
+  outline: none;
+  border: none;
+}
